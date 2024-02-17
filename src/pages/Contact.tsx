@@ -1,22 +1,25 @@
 import { Stack, Typography, Chip, Button } from "@mui/material";
+import aboutData from "../data/data.json";
 
 const data = {
   title: "Get in touch",
   subtitle: "I am available for freelance work. Connect with me via email:",
-  email: "tanmayarya29@gmail.com",
+  email: aboutData.about.email,
 };
 
 const Contact = () => {
   return (
     <Stack
       direction="column"
+      justifyContent="center"
+      alignItems="center"
       spacing={3}
-      padding={3}
       sx={{
         border: "1px solid",
         borderColor: "primary.main",
         borderRadius: "10px",
         maxWidth: "fit-content",
+        padding: "10rem 3rem",
         // animation fade
         animation: "fade 1s ease-in-out",
         "@keyframes fade": {
@@ -43,6 +46,7 @@ const Contact = () => {
           "&:hover": {
             border: "primary.dark",
           },
+          width: "fit-content",
         }}
       />
       <Button

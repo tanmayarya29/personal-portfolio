@@ -1,32 +1,8 @@
 import { Stack, Chip, Typography, Grid } from "@mui/material";
-
-const data = {
-  education: [
-    {
-      degree: "B.Tech",
-      major: "Computer Science",
-      university: "Lovely Professional University",
-      date: "2023",
-      grade: "8.5",
-    },
-    {
-      degree: "Heigher Secondary",
-      major: "Science",
-      university: "Rawal convent school",
-      date: "2019",
-      grade: "9.5",
-    },
-    {
-      degree: "High School",
-      major: "Science",
-      university: "Alpine Valley Boarding School",
-      date: "2017",
-      grade: "9.6",
-    },
-  ],
-};
+import eduData from "../data/data.json";
 
 const Education = () => {
+  const data = eduData;
   return (
     <Grid
       container

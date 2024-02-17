@@ -8,76 +8,7 @@ import {
   IconButton,
 } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
-
-const data = {
-  works: [
-    {
-      company: "Google",
-      position: "Software Engineer",
-      duration: "2020 - Present",
-      technologies: ["React", "Node", "MongoDB", "Express"],
-      tasks: [
-        "Developed a web application for internal use using React and Node",
-        "Worked on the backend using Node and Express",
-        "Worked on the database using MongoDB",
-      ],
-      achievements: ["Won internal hackathon"],
-    },
-    {
-      company: "Microsoft",
-      position: "Software Engineer",
-      duration: "2018 - 2020",
-      technologies: ["Angular", "C#", "SQL"],
-      tasks: [
-        "Developed a web application for internal use using Angular and C#",
-        "Worked on the database using SQL",
-      ],
-      achievements: ["Won internal hackathon"],
-    },
-    {
-      company: "Amazon",
-      position: "Software Engineer",
-      duration: "2016 - 2018",
-      technologies: ["React", "Node", "MongoDB", "Express"],
-      tasks: [
-        "Developed a web application for internal use using React and Node",
-        "Worked on the backend using Node and Express",
-        "Worked on the database using MongoDB",
-      ],
-      achievements: ["Won internal hackathon"],
-    },
-    {
-      company: "Facebook",
-      position: "Software Engineer",
-      duration: "2014 - 2016",
-      technologies: ["React", "Node", "MongoDB", "Express"],
-      tasks: [
-        "Developed a web application for internal use using React and Node",
-        "Worked on the backend using Node and Express",
-        "Worked on the database using MongoDB",
-      ],
-      achievements: ["Won internal hackathon"],
-    },
-  ],
-  projects: [
-    {
-      title: "E-commerce Website",
-      link: "https://bazar-app.vercel.app/",
-      github: "https://github.com/tanmayarya29/bazar-frontend",
-      technologies: ["React", "Node", "MongoDB", "Express"],
-      description: "A website for e-commerce",
-      image: "https://source.unsplash.com/1600x900/?ecommerce",
-    },
-    {
-      title: "Portfolio Website",
-      link: "https://iamtanmay.vercel.app/",
-      github: "https://github.com/tanmayarya29/personal-portfolio/",
-      technologies: ["React", "Node", "MongoDB", "Express"],
-      description: "A website for portfolio",
-      image: "https://source.unsplash.com/1600x900/?portfolio",
-    },
-  ],
-};
+import data from "../data/data.json";
 
 const Work = () => {
   return (

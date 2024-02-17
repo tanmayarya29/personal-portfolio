@@ -1,3 +1,251 @@
 {
-  "test": "test"
+  "song": {
+    "song": "Kun Faya Kun",
+    "link": "https://www.youtube.com/watch?v=Q3jJjR8fzr4",
+    "icon": "https://img.icons8.com/ios/50/000000/youtube-play.png"
+  },
+  "about": {
+    "name": "Tanmay Mishra",
+    "email": "tanmayarya29@gmail.com",
+    "description": "As a software developer with expertise in React JS, I am passionate about exploring the vast ocean of technology. My enthusiasm for artificial intelligence and machine learning fuels my drive to continuously expand my knowledge and skills. As a quick learner, I enjoy tackling new challenges and finding creative solutions to complex problems.In addition to my technical skills, I am also a competitive coder with a passion for staying up-to-date with the latest coding trends and technologies. Whether working on individual projects or collaborating with a team, I am committed to delivering high-quality results that exceed expectations.If you're looking for a skilled and driven software developer with a passion for exploring the frontiers of technology, look no further than my profile. Let's connect and explore the possibilities together.",
+    "resumeLink": "https://www.linkedin.com/in/tanmayarya29/overlay/1635553006944/single-media-viewer?type=DOCUMENT&profileId=ACoAACtuYc8BZk9qnV9LV1vHxt4hWqGYgJTrRdE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BpzNFETTfSE2vIbJEmSjapw%3D%3D",
+    "skills": [
+      "React",
+      "Node",
+      "MongoDB",
+      "Express",
+      "Angular",
+      "C++",
+      "MySQL",
+      "OracleSQL",
+      "bash",
+      "python",
+      "javascript",
+      "Typescript",
+      "machine learning",
+      "transformers",
+      "data structures and algorithms",
+      "linux",
+      "redis"
+    ],
+    "image": "https://media.licdn.com/dms/image/D5603AQEBElvXVHHfYw/profile-displayphoto-shrink_400_400/0/1664726686353?e=1713398400&v=beta&t=6bryOyR4_WhqPoSZB091qABjBNhj5tgpk40LB0OZzSs",
+    "certifications": [
+      {
+        "title": "Introduction to ai",
+        "issuer": "Google",
+        "date": "2023",
+        "link": "https://coursera.org/verify/EW82ZGTHGZET"
+      },
+      {
+        "title": "Introduction to llm",
+        "issuer": "Google",
+        "date": "2023",
+        "link": "https://coursera.org/verify/BAMWRANHH839"
+      },
+      {
+        "title": "Machine Learning Specialization",
+        "issuer": "DeepLearning.ai",
+        "date": "2023",
+        "link": "https://coursera.org/verify/specialization/LSJTRTW6E6HC"
+      },
+      {
+        "title": "What is data science?",
+        "issuer": "IBM",
+        "date": "2022",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/Z28L52JSA27D"
+      },
+      {
+        "title": "Mathematical thinking in computer science",
+        "issuer": "Coursera",
+        "date": "2022",
+        "link": "https://coursera.org/verify/TFBMAFQ2E9HH"
+      },
+      {
+        "title": "Algorithmic Toolbox",
+        "issuer": "Coursera",
+        "date": "2022",
+        "link": "https://coursera.org/verify/54ZLYDBKMSGB"
+      },
+      {
+        "title": "Full-stack web development with react specialization",
+        "issuer": "Coursera",
+        "date": "2022",
+        "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/UANZ4FLNTVS4"
+      },
+      {
+        "title": "Full stack Invoice prediction system",
+        "issuer": "Highradius",
+        "date": "2022",
+        "link": "#"
+      },
+      {
+        "title": "Python data structures",
+        "issuer": "Coursera",
+        "date": "2020",
+        "link": "https://coursera.org/share/54642b8b5fa962f188ac56f8ab677088"
+      },
+      {
+        "title": "DSA self paced",
+        "issuer": "Geeks for Geeks",
+        "date": "2021",
+        "link": "https://media.geeksforgeeks.org/courses/certificates/2c5e764e96551e0b5b7baf388b2805e8.pdf"
+      }
+    ],
+    "hobbies": [
+      "Listening music",
+      "Gaming",
+      "Traveling",
+      "Photography",
+      "Sports"
+    ],
+    "achievements": [
+      {
+        "title": "Winner of Hackathon",
+        "issuer": "Fiserv",
+        "date": "2023"
+      },
+      {
+        "title": "Bot creator",
+        "issuer": "Automation Anywhere",
+        "date": "2019"
+      },
+      {
+        "title": "President of high school rotary club",
+        "issuer": "Rotary club",
+        "date": "2017"
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "B.Tech",
+      "major": "Computer Science",
+      "university": "Lovely Professional University",
+      "date": "2023",
+      "grade": "8.5"
+    },
+    {
+      "degree": "Heigher Secondary",
+      "major": "Science",
+      "university": "Rawal convent school",
+      "date": "2019",
+      "grade": "9.5"
+    },
+    {
+      "degree": "High School",
+      "major": "Science",
+      "university": "Alpine Valley Boarding School",
+      "date": "2017",
+      "grade": "9.6"
+    }
+  ],
+
+  "works": [
+    {
+      "company": "Fiserv",
+      "position": "Technology - Analyst Program 1",
+      "duration": "July 2023 - Present",
+      "technologies": [
+        "React",
+        "Bash",
+        "Python",
+        "AWS",
+        "Machine Learning",
+        "LLM",
+        "Transformers",
+        "redis"
+      ],
+      "tasks": ["Tech stack modernization from bash to python architecture"],
+      "achievements": ["Won internal hackathon"]
+    },
+    {
+      "company": "Inviz",
+      "position": "Frontend Engineer",
+      "duration": "may 2022 - may 2023",
+      "technologies": [
+        "React",
+        "MUI",
+        "MongoDB",
+        "Redux",
+        "react-query",
+        "storybook",
+        "agile",
+        "git"
+      ],
+      "tasks": [
+        "Worked on development of admin console for a ai based search engine.",
+        "Created a component library using storybook",
+        "worked on development of custom components like drag-drop, date-time-range picker and more"
+      ],
+      "achievements": []
+    },
+    {
+      "company": "Crowdanalytix",
+      "position": "Software Engineer",
+      "duration": "february 2022 - august 2022",
+      "technologies": ["Angular", "postman"],
+      "tasks": ["Worked on development of datax platform using angular."],
+      "achievements": []
+    },
+    {
+      "company": "Highradius",
+      "position": "Product Engineer",
+      "duration": "Jan 2022 - 2022",
+      "technologies": ["React", "Sklearn", "MySQL", "JDBC", "java", "servlet"],
+      "tasks": [
+        "Worked on development of full stack invoice prediction system using ai"
+      ],
+      "achievements": ["Won award for project completion."]
+    }
+  ],
+  "projects": [
+    {
+      "title": "BAZAR",
+      "link": "https://bazar-app.vercel.app/",
+      "github": "https://github.com/tanmayarya29/bazar-frontend",
+      "technologies": ["React", "Node", "MongoDB", "Express", "JWT"],
+      "description": "A website for e-commerce",
+      "image": "https://source.unsplash.com/1600x900/?ecommerce"
+    },
+    {
+      "title": "Portfolio Website",
+      "link": "https://iamtanmay.vercel.app/",
+      "github": "https://github.com/tanmayarya29/personal-portfolio/",
+      "technologies": ["React", "Node", "MongoDB", "Express", "MUI"],
+      "description": "A website for portfolio",
+      "image": "https://source.unsplash.com/1600x900/?portfolio"
+    },
+    {
+      "title": "Indiction - Ai based invoice prediction system",
+      "link": "https://github.com/tanmayarya29/B2B-Invoice-Prediction",
+      "github": "https://github.com/tanmayarya29/B2B-Invoice-Prediction",
+      "technologies": ["React", "Sklearn", "MySQL", "JDBC", "java", "servlet"],
+      "description": "Full stack invoice prediction system using ai",
+      "image": "https://source.unsplash.com/1600x900/?portfolio"
+    },
+    {
+      "title": "CAPTCHA recognition",
+      "link": "#",
+      "github": "#",
+      "technologies": ["Sklearn", "Neural networks"],
+      "description": "An OCR model to recognize text-based captcha using CNNs, RNNs, and CTC loss.",
+      "image": "https://source.unsplash.com/1600x900/?portfolio"
+    },
+    {
+      "title": "MyClass automation",
+      "link": "#",
+      "github": "#",
+      "technologies": ["Selenium", "Python", "Webdriver"],
+      "description": "Class attending bot",
+      "image": "https://source.unsplash.com/1600x900/?portfolio"
+    },
+    {
+      "title": "SNORE-Smart notes and reminders",
+      "link": "#",
+      "github": "#",
+      "technologies": ["Multithreading", "Python"],
+      "description": "This is a smart note-taking and reminders program build using python,tkinter,threading,speech-recognition with mood based colors, dark-mode and digital-clock.",
+      "image": "https://source.unsplash.com/1600x900/?portfolio"
+    }
+  ]
 }

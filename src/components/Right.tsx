@@ -1,7 +1,8 @@
 import { Box, Stack, Link } from "@mui/material";
+import aboutData from "../data/data.json";
 
 const Right = () => {
-  const email = "tanmayarya29@gmail.com";
+  const email = aboutData.about.email;
   return (
     <Stack
       direction="column"

@@ -1,13 +1,9 @@
 import { Stack, Typography } from "@mui/material";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
-
-const data = {
-  song: "Kun Faya Kun",
-  link: "https://www.youtube.com/watch?v=Q3jJjR8fzr4",
-  icon: "https://img.icons8.com/ios/50/000000/youtube-play.png",
-};
+import songData from "../data/data.json";
 
 const CurrentlyPlaying = () => {
+  const data = songData.song;
   return (
     <Stack
       direction="row"

@@ -4,6 +4,7 @@ import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { useLocation, useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/logoNoBg.png";
+import aboutData from "../data/data.json";
 
 interface HeaderProps {
   theme: string;
@@ -11,7 +12,7 @@ interface HeaderProps {
 }
 
 const data = {
-  name: "Tanmay",
+  name: aboutData.about.name,
   logo: logo,
 };
 
