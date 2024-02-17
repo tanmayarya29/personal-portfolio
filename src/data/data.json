@@ -221,7 +221,7 @@
       "github": "https://github.com/tanmayarya29/B2B-Invoice-Prediction",
       "technologies": ["React", "Sklearn", "MySQL", "JDBC", "java", "servlet"],
       "description": "Full stack invoice prediction system using ai",
-      "image": "https://source.unsplash.com/1600x900/?portfolio"
+      "image": "https://source.unsplash.com/1600x900/?ai"
     },
     {
       "title": "CAPTCHA recognition",
@@ -229,7 +229,7 @@
       "github": "#",
       "technologies": ["Sklearn", "Neural networks"],
       "description": "An OCR model to recognize text-based captcha using CNNs, RNNs, and CTC loss.",
-      "image": "https://source.unsplash.com/1600x900/?portfolio"
+      "image": "https://source.unsplash.com/1600x900/?data"
     },
     {
       "title": "MyClass automation",
@@ -237,7 +237,7 @@
       "github": "#",
       "technologies": ["Selenium", "Python", "Webdriver"],
       "description": "Class attending bot",
-      "image": "https://source.unsplash.com/1600x900/?portfolio"
+      "image": "https://source.unsplash.com/1600x900/?machine"
     },
     {
       "title": "SNORE-Smart notes and reminders",
@@ -245,7 +245,7 @@
       "github": "#",
       "technologies": ["Multithreading", "Python"],
       "description": "This is a smart note-taking and reminders program build using python,tkinter,threading,speech-recognition with mood based colors, dark-mode and digital-clock.",
-      "image": "https://source.unsplash.com/1600x900/?portfolio"
+      "image": "https://source.unsplash.com/1600x900/?software"
     }
   ]
 }
