@@ -1,6 +1,7 @@
 import TheGuy from "../components/TheGuy/TheGuy";
 import { Grid, Stack, Typography } from "@mui/material";
 import { useTypingEffect } from "../hooks/useTypingEffect";
+import CurrentlyPlaying from "../components/CurrentlyPlaying";
 
 const introduction = {
   title: "Hi, My name is",
@@ -46,10 +47,11 @@ const Home = () => {
           direction="column"
           justifyContent="center"
           alignItems="center"
+          spacing={2}
           sx={{
             width: "100%",
             borderRadius: "10px",
-            padding: "2rem",
+            padding: "1rem 2rem",
             backgroundColor: "primary.light",
             // scale down by 0.7 based on screen size
             transform: { xs: "scale(0.7)", md: "scale(1)" },
@@ -64,6 +66,7 @@ const Home = () => {
             },
           }}
         >
+          <CurrentlyPlaying />
           <TheGuy />
         </Stack>
       </Grid>
