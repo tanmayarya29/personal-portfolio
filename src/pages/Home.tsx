@@ -29,7 +29,7 @@ const Home = () => {
         width: "100%",
         padding: "1rem",
         backgroundColor: (theme) => theme.palette.background.default,
-        overflow: "hidden",
+        // overflow: "hidden",
         // animation
         animation: "fadeIn 1s ease-in-out",
         "@keyframes fadeIn": {
