@@ -231,7 +231,15 @@ const Header = (props: HeaderProps) => {
               {theme === "light" ? <LightModeIcon /> : <DarkModeIcon />}
             </IconButton>
           </Stack>
-
+          <IconButton onClick={toggleTheme}
+            sx={{
+              marginLeft: 'auto',
+              color: (theme) => theme.palette.primary.main,
+              display: { sm: 'none' },
+            }}
+          >
+            {theme === "light" ? <LightModeIcon /> : <DarkModeIcon />}
+          </IconButton>
         </Toolbar>
       </AppBar>
       <nav>
