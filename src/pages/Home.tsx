@@ -27,10 +27,8 @@ const Home = () => {
       container
       sx={{
         width: "100%",
-        padding: "1rem",
+        padding: { sx: "0", md: "2rem" },
         backgroundColor: (theme) => theme.palette.background.default,
-        // overflow: "hidden",
-        // animation
         animation: "fadeIn 1s ease-in-out",
         "@keyframes fadeIn": {
           "0%": {
@@ -47,14 +45,14 @@ const Home = () => {
           direction="column"
           justifyContent="center"
           alignItems="center"
-          spacing={2}
+          gap={2}
           sx={{
             width: "100%",
             borderRadius: "10px",
             padding: "1rem 2rem",
             backgroundColor: "primary.light",
             // scale down by 0.7 based on screen size
-            transform: { xs: "scale(0.7)", md: "scale(1)" },
+            transform: { xs: "scale(0.75)", md: "scale(1)" },
             // animation: "fadeIn 1s ease-in-out",
             "@keyframes fadeIn": {
               "0%": {
@@ -78,7 +76,7 @@ const Home = () => {
           sx={{
             textAlign: "center",
             borderRadius: "10px",
-            padding: "5rem",
+            padding: { xs: "2rem", md: "5rem" },
             width: "100%",
             animation: "right2left 1s ease-in-out",
             "@keyframes right2left": {

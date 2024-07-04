@@ -31,11 +31,12 @@ const Layout = (props: LayoutProps) => {
         direction="column"
         alignItems="center"
         sx={{
-          padding: "1rem 5rem",
+          padding: { xs: "1rem", md: "1rem 4rem" },
           width: "100%",
           height: "100%",
           overflowY: "auto",
           backgroundColor: (theme) => theme.palette.background.default,
+          marginTop: "2rem",
         }}
       >
         <Outlet />

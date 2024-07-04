@@ -4,11 +4,12 @@ import eduData from "../data/data.json";
 const Education = () => {
   const data = eduData;
   return (
+
     <Grid
       container
       spacing={2}
       sx={{
-        padding: "0 10%",
+        padding: "2rem",
         // animation fade
         animation: "fade 1s ease-in-out",
         "@keyframes fade": {

@@ -36,7 +36,7 @@ const Left = () => {
       sx={{
         position: "fixed",
         bottom: 0,
-        left: 0,
+        left: 10,
         width: "5%",
         // animation bottom to top
         animation: "bottom2top 1s ease-in-out",

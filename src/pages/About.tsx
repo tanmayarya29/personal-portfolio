@@ -8,7 +8,7 @@ const About = () => {
       container
       spacing={10}
       sx={{
-        padding: "0 10%",
+        padding: "2rem",
         // animation fade
         animation: "fade 1s ease-in-out",
         "@keyframes fade": {
@@ -112,18 +112,19 @@ const About = () => {
         <Typography variant="h5" gutterBottom>
           Hobbies
         </Typography>
-        <Stack direction="row" spacing={1}>
+        <Grid container spacing={1}>
           {data.hobbies.map((hobby, index) => (
-            <Chip
-              key={index}
-              label={hobby}
-              sx={{
-                backgroundColor: "primary.main",
-                color: "white",
-              }}
-            />
+            <Grid item key={index}>
+              <Chip
+                label={hobby}
+                sx={{
+                  backgroundColor: "primary.main",
+                  color: "white",
+                }}
+              />
+            </Grid>
           ))}
-        </Stack>
+        </Grid>
       </Grid>
       <Grid item xs={12}>
         <Typography variant="h5" gutterBottom>
@@ -163,7 +164,7 @@ const About = () => {
           ))}
         </Grid>
       </Grid>
-    </Grid>
+    </Grid >
   );
 };
 
