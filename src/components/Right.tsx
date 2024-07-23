@@ -10,6 +10,7 @@ const Right = () => {
       alignItems="center"
       padding={0}
       sx={{
+        zIndex: 1000,
         position: "fixed",
         bottom: 0,
         right: 10,

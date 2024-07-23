@@ -34,6 +34,7 @@ const Left = () => {
       alignItems="center"
       padding={0}
       sx={{
+        zIndex: 1000,
         position: "fixed",
         bottom: 0,
         left: 10,
