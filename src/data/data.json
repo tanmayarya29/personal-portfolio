@@ -208,6 +208,14 @@
       "image": "https://source.unsplash.com/1600x900/?ecommerce"
     },
     {
+      "title": "DUDWA",
+      "link": "https://dudwa.com",
+      "github": "#",
+      "technologies": ["React", "Node", "MongoDB", "Express", "JWT"],
+      "description": "Connecting Brands with People, Everywhere.",
+      "image": "https://source.unsplash.com/1600x900/?ecommerce"
+    },
+    {
       "title": "Portfolio Website",
       "link": "https://iamtanmay.vercel.app/",
       "github": "https://github.com/tanmayarya29/personal-portfolio/",
