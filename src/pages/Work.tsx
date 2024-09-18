@@ -196,6 +196,9 @@ const Work = () => {
                 src={project.image}
                 alt="project"
                 style={{ width: "100%", marginTop: "1rem" }}
+                onError={(e) => {
+                  e.currentTarget.src = `https://placehold.co/600x400?text=${project.title}`;
+                }}
               />
             </Stack>
           </Grid>
