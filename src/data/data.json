@@ -8,7 +8,7 @@
     "name": "Tanmay Mishra",
     "email": "tanmayarya29@gmail.com",
     "description": "As a software developer with expertise in React JS, I am passionate about exploring the vast ocean of technology. My enthusiasm for artificial intelligence and machine learning fuels my drive to continuously expand my knowledge and skills. As a quick learner, I enjoy tackling new challenges and finding creative solutions to complex problems.In addition to my technical skills, I am also a competitive coder with a passion for staying up-to-date with the latest coding trends and technologies. Whether working on individual projects or collaborating with a team, I am committed to delivering high-quality results that exceed expectations.If you're looking for a skilled and driven software developer with a passion for exploring the frontiers of technology, look no further than my profile. Let's connect and explore the possibilities together.",
-    "resumeLink": "https://www.linkedin.com/in/tanmayarya29/overlay/1635553006944/single-media-viewer?type=DOCUMENT&profileId=ACoAACtuYc8BZk9qnV9LV1vHxt4hWqGYgJTrRdE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BpzNFETTfSE2vIbJEmSjapw%3D%3D",
+    "resumeLink": "https://drive.google.com/file/d/1W1WMhI1n9aj6GrEiNhdKoZb5-i3W7O35/view?usp=sharing",
     "skills": [
       "React",
       "Node",
@@ -209,9 +209,9 @@
     },
     {
       "title": "DUDWA",
-      "link": "https://dudwa.com",
-      "github": "#",
-      "technologies": ["React", "Node", "MongoDB", "Express", "JWT"],
+      "link": "http://dudwa.com",
+      "github": "https://github.com/tanmayarya29/",
+      "technologies": ["React", "Node", "MongoDB", "Express"],
       "description": "Connecting Brands with People, Everywhere.",
       "image": "https://source.unsplash.com/1600x900/?ecommerce"
     },

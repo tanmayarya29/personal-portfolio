@@ -1,5 +1,6 @@
 import { Stack, Grid, Box, Typography, Link, Chip } from "@mui/material";
 import aboutData from "../data/data.json";
+import me from "../data/me.jpeg"
 
 const About = () => {
   const data = aboutData.about;
@@ -29,7 +30,7 @@ const About = () => {
           }}
         >
           <img
-            src={data.image}
+            src={me}
             alt="Tanmay Mishra"
             style={{ width: "200px", height: "200px", borderRadius: "50%" }}
           />
